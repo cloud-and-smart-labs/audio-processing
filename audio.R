@@ -58,37 +58,3 @@ fft_cwn_[abs(freq_a) > 5500] <- 0
 ifft_cwn = fft(fft_cwn_, inverse=TRUE)/n
 plot(time_a, ifft_cwn, main='Filtered Signal', type='l', col='red', xlab='Time', ylab='Amplitude')
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
